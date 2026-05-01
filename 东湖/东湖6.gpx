@@ -1,0 +1,637 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" creator="SixFoot - http://www.foooooot.com/" version="1.1">
+  <trk>
+    <trkseg>
+      <trkpt lat="30.5371380" lon="114.4108730" /><trkpt lat="30.5386658" lon="114.4117298" /><trkpt lat="30.5389184" lon="114.4119776" /><trkpt lat="30.5390448" lon="114.4122680" /><trkpt lat="30.5393278" lon="114.4125466" /><trkpt lat="30.5380814" lon="114.4148976" /><trkpt lat="30.5379708" lon="114.4155890" /><trkpt lat="30.5375156" lon="114.4169432" /><trkpt lat="30.5375252" lon="114.4173432" /><trkpt lat="30.5376364" lon="114.4174982" /><trkpt lat="30.5378672" lon="114.4175592" /><trkpt lat="30.5392492" lon="114.4172380" /><trkpt lat="30.5394102" lon="114.4172726" /><trkpt lat="30.5397070" lon="114.4178408" /><trkpt lat="30.5399154" lon="114.4180930" /><trkpt lat="30.5401840" lon="114.4182262" /><trkpt lat="30.5406024" lon="114.4182844" /><trkpt lat="30.5407410" lon="114.4183960" /><trkpt lat="30.5408028" lon="114.4190642" /><trkpt lat="30.5409038" lon="114.4194082" /><trkpt lat="30.5411276" lon="114.4197874" /><trkpt lat="30.5416660" lon="114.4204602" /><trkpt lat="30.5412646" lon="114.4217110" /><trkpt lat="30.5411238" lon="114.4218846" /><trkpt lat="30.5409272" lon="114.4218342" /><trkpt lat="30.5396690" lon="114.4210482" /><trkpt lat="30.5409038" lon="114.4218186" /><trkpt lat="30.5411154" lon="114.4218560" /><trkpt lat="30.5412762" lon="114.4216760" /><trkpt lat="30.5416388" lon="114.4207024" /><trkpt lat="30.5418284" lon="114.4206414" /><trkpt lat="30.5423234" lon="114.4211418" /><trkpt lat="30.5426906" lon="114.4219314" /><trkpt lat="30.5430748" lon="114.4222558" /><trkpt lat="30.5433662" lon="114.4224076" /><trkpt lat="30.5435346" lon="114.4223614" /><trkpt lat="30.5438664" lon="114.4220034" /><trkpt lat="30.5448898" lon="114.4216482" /><trkpt lat="30.5454322" lon="114.4213140" /><trkpt lat="30.5466910" lon="114.4211312" /><trkpt lat="30.5477570" lon="114.4214510" /><trkpt lat="30.5480120" lon="114.4216976" /><trkpt lat="30.5483336" lon="114.4222428" /><trkpt lat="30.5485880" lon="114.4224174" /><trkpt lat="30.5488306" lon="114.4224206" /><trkpt lat="30.5491488" lon="114.4221998" /><trkpt lat="30.5497468" lon="114.4221810" /><trkpt lat="30.5502616" lon="114.4220602" /><trkpt lat="30.5506324" lon="114.4224764" /><trkpt lat="30.5507120" lon="114.4227416" /><trkpt lat="30.5507048" lon="114.4232218" /><trkpt lat="30.5513032" lon="114.4240178" /><trkpt lat="30.5513610" lon="114.4241534" /><trkpt lat="30.5513336" lon="114.4245112" /><trkpt lat="30.5518972" lon="114.4254478" /><trkpt lat="30.5521164" lon="114.4265288" /><trkpt lat="30.5524740" lon="114.4274912" /><trkpt lat="30.5523872" lon="114.4273880" /><trkpt lat="30.5518888" lon="114.4254198" /><trkpt lat="30.5513930" lon="114.4245066" /><trkpt lat="30.5512526" lon="114.4239480" /><trkpt lat="30.5508232" lon="114.4233610" /><trkpt lat="30.5507732" lon="114.4231686" /><trkpt lat="30.5507984" lon="114.4226566" /><trkpt lat="30.5504770" lon="114.4222864" /><trkpt lat="30.5503668" lon="114.4219724" /><trkpt lat="30.5506870" lon="114.4226646" /><trkpt lat="30.5506676" lon="114.4231114" /><trkpt lat="30.5507196" lon="114.4233002" /><trkpt lat="30.5513596" lon="114.4240516" /><trkpt lat="30.5514732" lon="114.4241008" /><trkpt lat="30.5524464" lon="114.4241120" /><trkpt lat="30.5526138" lon="114.4241752" /><trkpt lat="30.5525956" lon="114.4240500" /><trkpt lat="30.5522154" lon="114.4241524" /><trkpt lat="30.5521472" lon="114.4243038" /><trkpt lat="30.5522196" lon="114.4244260" /><trkpt lat="30.5521514" lon="114.4243434" /><trkpt lat="30.5522674" lon="114.4239146" /><trkpt lat="30.5522608" lon="114.4232838" /><trkpt lat="30.5525114" lon="114.4229264" /><trkpt lat="30.5521814" lon="114.4226182" /><trkpt lat="30.5521430" lon="114.4224428" /><trkpt lat="30.5522030" lon="114.4222916" /><trkpt lat="30.5524524" lon="114.4222090" /><trkpt lat="30.5525860" lon="114.4217704" /><trkpt lat="30.5524450" lon="114.4214526" /><trkpt lat="30.5525596" lon="114.4211642" /><trkpt lat="30.5528204" lon="114.4208368" /><trkpt lat="30.5527940" lon="114.4206530" /><trkpt lat="30.5528582" lon="114.4203646" /><trkpt lat="30.5527210" lon="114.4201218" /><trkpt lat="30.5523256" lon="114.4198278" /><trkpt lat="30.5522752" lon="114.4196304" /><trkpt lat="30.5524776" lon="114.4193170" /><trkpt lat="30.5525754" lon="114.4189794" /><trkpt lat="30.5530054" lon="114.4188230" /><trkpt lat="30.5531158" lon="114.4185216" /><trkpt lat="30.5531308" lon="114.4180834" /><trkpt lat="30.5532016" lon="114.4179658" /><trkpt lat="30.5534098" lon="114.4178468" /><trkpt lat="30.5529064" lon="114.4174540" /><trkpt lat="30.5531902" lon="114.4165174" /><trkpt lat="30.5531356" lon="114.4162724" /><trkpt lat="30.5531594" lon="114.4159376" /><trkpt lat="30.5527440" lon="114.4154414" /><trkpt lat="30.5525724" lon="114.4150310" /><trkpt lat="30.5525764" lon="114.4148618" /><trkpt lat="30.5527470" lon="114.4145552" /><trkpt lat="30.5531954" lon="114.4146146" /><trkpt lat="30.5536954" lon="114.4145910" /><trkpt lat="30.5539554" lon="114.4144338" /><trkpt lat="30.5542000" lon="114.4141862" /><trkpt lat="30.5543054" lon="114.4138584" /><trkpt lat="30.5542488" lon="114.4135670" /><trkpt lat="30.5541004" lon="114.4132992" /><trkpt lat="30.5537806" lon="114.4129360" /><trkpt lat="30.5543492" lon="114.4133192" /><trkpt lat="30.5546846" lon="114.4133348" /><trkpt lat="30.5549188" lon="114.4134374" /><trkpt lat="30.5548320" lon="114.4138198" /><trkpt lat="30.5549970" lon="114.4140950" /><trkpt lat="30.5550952" lon="114.4144378" /><trkpt lat="30.5549990" lon="114.4143396" /><trkpt lat="30.5546180" lon="114.4146210" /><trkpt lat="30.5544304" lon="114.4145330" /><trkpt lat="30.5545350" lon="114.4146152" /><trkpt lat="30.5546384" lon="114.4146104" /><trkpt lat="30.5549302" lon="114.4142954" /><trkpt lat="30.5549864" lon="114.4141622" /><trkpt lat="30.5549252" lon="114.4138614" /><trkpt lat="30.5550214" lon="114.4135200" /><trkpt lat="30.5551506" lon="114.4133370" /><trkpt lat="30.5553658" lon="114.4132910" /><trkpt lat="30.5547960" lon="114.4133334" /><trkpt lat="30.5546482" lon="114.4132768" /><trkpt lat="30.5548926" lon="114.4133596" /><trkpt lat="30.5551910" lon="114.4131428" /><trkpt lat="30.5558420" lon="114.4115456" /><trkpt lat="30.5561066" lon="114.4105188" /><trkpt lat="30.5561192" lon="114.4094562" /><trkpt lat="30.5560486" lon="114.4088736" /><trkpt lat="30.5563092" lon="114.4083624" /><trkpt lat="30.5567034" lon="114.4066944" /><trkpt lat="30.5566250" lon="114.4060992" /><trkpt lat="30.5566242" lon="114.4059966" /><trkpt lat="30.5566718" lon="114.4060084" /><trkpt lat="30.5565396" lon="114.4057816" /><trkpt lat="30.5563838" lon="114.4048060" /><trkpt lat="30.5561674" lon="114.4042014" /><trkpt lat="30.5561046" lon="114.4034924" /><trkpt lat="30.5558276" lon="114.4026338" /><trkpt lat="30.5558892" lon="114.4019824" /><trkpt lat="30.5559616" lon="114.4017814" /><trkpt lat="30.5560570" lon="114.4017062" /><trkpt lat="30.5563068" lon="114.4016694" /><trkpt lat="30.5615714" lon="114.4016162" /><trkpt lat="30.5619028" lon="114.4016812" /><trkpt lat="30.5621488" lon="114.4019860" /><trkpt lat="30.5622298" lon="114.4017746" /><trkpt lat="30.5621526" lon="114.4012516" /><trkpt lat="30.5624742" lon="114.3988956" /><trkpt lat="30.5625400" lon="114.3980036" /><trkpt lat="30.5627712" lon="114.3967914" /><trkpt lat="30.5629540" lon="114.3963592" /><trkpt lat="30.5632180" lon="114.3960028" /><trkpt lat="30.5641900" lon="114.3949932" /><trkpt lat="30.5653666" lon="114.3938990" /><trkpt lat="30.5657382" lon="114.3937536" /><trkpt lat="30.5669320" lon="114.3937992" /><trkpt lat="30.5673550" lon="114.3937122" /><trkpt lat="30.5679712" lon="114.3933198" /><trkpt lat="30.5690946" lon="114.3923158" /><trkpt lat="30.5694728" lon="114.3916436" /><trkpt lat="30.5702514" lon="114.3888316" /><trkpt lat="30.5705000" lon="114.3881490" /><trkpt lat="30.5712282" lon="114.3866882" /><trkpt lat="30.5715728" lon="114.3863200" /><trkpt lat="30.5720626" lon="114.3862360" /><trkpt lat="30.5732852" lon="114.3863692" /><trkpt lat="30.5750274" lon="114.3867860" /><trkpt lat="30.5771258" lon="114.3871902" /><trkpt lat="30.5791226" lon="114.3879022" /><trkpt lat="30.5796060" lon="114.3879750" /><trkpt lat="30.5799210" lon="114.3878708" /><trkpt lat="30.5807056" lon="114.3873764" /><trkpt lat="30.5835928" lon="114.3853804" /><trkpt lat="30.5835406" lon="114.3834720" /><trkpt lat="30.5831470" lon="114.3789908" /><trkpt lat="30.5830104" lon="114.3787864" /><trkpt lat="30.5826296" lon="114.3785642" /><trkpt lat="30.5824466" lon="114.3783370" /><trkpt lat="30.5817552" lon="114.3763866" /><trkpt lat="30.5811340" lon="114.3754150" /><trkpt lat="30.5809740" lon="114.3735012" /><trkpt lat="30.5811764" lon="114.3723310" /><trkpt lat="30.5811090" lon="114.3720706" /><trkpt lat="30.5809556" lon="114.3718308" /><trkpt lat="30.5805116" lon="114.3715350" /><trkpt lat="30.5792528" lon="114.3711292" /><trkpt lat="30.5784628" lon="114.3707330" /><trkpt lat="30.5776012" lon="114.3701272" /><trkpt lat="30.5771238" lon="114.3697102" /><trkpt lat="30.5768662" lon="114.3693900" /><trkpt lat="30.5764908" lon="114.3696492" /><trkpt lat="30.5761550" lon="114.3695746" /><trkpt lat="30.5759698" lon="114.3693904" /><trkpt lat="30.5758334" lon="114.3689830" /><trkpt lat="30.5755058" lon="114.3686786" /><trkpt lat="30.5746556" lon="114.3685516" /><trkpt lat="30.5743060" lon="114.3686296" /><trkpt lat="30.5737280" lon="114.3688942" /><trkpt lat="30.5734442" lon="114.3688720" /><trkpt lat="30.5730666" lon="114.3683764" /><trkpt lat="30.5728286" lon="114.3677574" /><trkpt lat="30.5724520" lon="114.3671050" /><trkpt lat="30.5721352" lon="114.3667984" /><trkpt lat="30.5716264" lon="114.3665228" /><trkpt lat="30.5713748" lon="114.3664700" /><trkpt lat="30.5710342" lon="114.3664974" /><trkpt lat="30.5704906" lon="114.3667000" /><trkpt lat="30.5699990" lon="114.3670138" /><trkpt lat="30.5692070" lon="114.3678264" /><trkpt lat="30.5688698" lon="114.3679170" /><trkpt lat="30.5681116" lon="114.3675224" /><trkpt lat="30.5672384" lon="114.3673592" /><trkpt lat="30.5668932" lon="114.3672274" /><trkpt lat="30.5657100" lon="114.3663548" /><trkpt lat="30.5660962" lon="114.3665152" /><trkpt lat="30.5658032" lon="114.3663790" /><trkpt lat="30.5654178" lon="114.3660796" /><trkpt lat="30.5653410" lon="114.3658902" /><trkpt lat="30.5653456" lon="114.3653336" /><trkpt lat="30.5648682" lon="114.3644132" /><trkpt lat="30.5648190" lon="114.3640904" /><trkpt lat="30.5651638" lon="114.3612582" /><trkpt lat="30.5653070" lon="114.3607534" /><trkpt lat="30.5656852" lon="114.3599382" /><trkpt lat="30.5659004" lon="114.3593024" /><trkpt lat="30.5658634" lon="114.3591230" /><trkpt lat="30.5657636" lon="114.3590272" /><trkpt lat="30.5656422" lon="114.3590096" /><trkpt lat="30.5656366" lon="114.3591322" /><trkpt lat="30.5655200" lon="114.3588304" /><trkpt lat="30.5655522" lon="114.3589338" /><trkpt lat="30.5662192" lon="114.3592268" /><trkpt lat="30.5666380" lon="114.3595378" /><trkpt lat="30.5680604" lon="114.3607002" /><trkpt lat="30.5687050" lon="114.3613380" /></trkseg>
+  </trk>
+  <wpt lat="30.537138" lon="114.410873">
+    <ele>28.1</ele>
+    <time>2026-04-17T03:41:52Z</time>
+    <name>IMG_20260417_114151</name>
+    <desc>IMG_20260417_114151</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.537138" lon="114.410873">
+    <ele>28.1</ele>
+    <time>2026-04-17T03:42:01Z</time>
+    <name>IMG_20260417_114200</name>
+    <desc>IMG_20260417_114200</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.537138" lon="114.410873">
+    <ele>28.1</ele>
+    <time>2026-04-17T03:43:27Z</time>
+    <name>IMG_20260417_114326</name>
+    <desc>IMG_20260417_114326</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.537138" lon="114.410873">
+    <ele>28.1</ele>
+    <time>2026-04-17T03:59:22Z</time>
+    <name>IMG_20260417_115918</name>
+    <desc>IMG_20260417_115918</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.537138" lon="114.410873">
+    <ele>28.1</ele>
+    <time>2026-04-17T04:19:42Z</time>
+    <name>IMG_20260417_121940</name>
+    <desc>IMG_20260417_121940</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.537138" lon="114.410873">
+    <ele>28.1</ele>
+    <time>2026-04-17T04:25:09Z</time>
+    <name>IMG_20260417_122506</name>
+    <desc>IMG_20260417_122506</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.537138" lon="114.410873">
+    <ele>28.1</ele>
+    <time>2026-04-17T04:25:23Z</time>
+    <name>IMG_20260417_122520</name>
+    <desc>IMG_20260417_122520</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.537138" lon="114.410873">
+    <ele>28.1</ele>
+    <time>2026-04-17T04:25:31Z</time>
+    <name>IMG_20260417_122528</name>
+    <desc>IMG_20260417_122528</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.537702" lon="114.416423">
+    <ele>12.0</ele>
+    <time>2026-04-17T04:44:17Z</time>
+    <name>IMG_20260417_124415</name>
+    <desc>IMG_20260417_124415</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.538724" lon="114.417372">
+    <ele>13.6</ele>
+    <time>2026-04-17T04:45:31Z</time>
+    <name>IMG_20260417_124530</name>
+    <desc>IMG_20260417_124530</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.541493" lon="114.420178">
+    <ele>12.6</ele>
+    <time>2026-04-17T04:50:49Z</time>
+    <name>IMG_20260417_125045</name>
+    <desc>IMG_20260417_125045</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.541568" lon="114.420271">
+    <ele>10.19</ele>
+    <time>2026-04-17T04:50:52Z</time>
+    <name>IMG_20260417_125049</name>
+    <desc>IMG_20260417_125049</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.541557" lon="114.420883">
+    <ele>13.3</ele>
+    <time>2026-04-17T04:51:19Z</time>
+    <name>IMG_20260417_125115</name>
+    <desc>IMG_20260417_125115</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.54107" lon="114.421921">
+    <ele>14.6</ele>
+    <time>2026-04-17T04:52:00Z</time>
+    <name>IMG_20260417_125156</name>
+    <desc>IMG_20260417_125156</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.540895" lon="114.421803">
+    <ele>13.3</ele>
+    <time>2026-04-17T04:52:12Z</time>
+    <name>IMG_20260417_125210</name>
+    <desc>IMG_20260417_125210</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.53964" lon="114.421041">
+    <ele>14.8</ele>
+    <time>2026-04-17T04:54:25Z</time>
+    <name>IMG_20260417_125424</name>
+    <desc>IMG_20260417_125424</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.544259" lon="114.421915">
+    <ele>13.6</ele>
+    <time>2026-04-17T04:59:35Z</time>
+    <name>IMG_20260417_125930_1</name>
+    <desc>IMG_20260417_125930_1</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.54432" lon="114.421855">
+    <ele>14.8</ele>
+    <time>2026-04-17T04:59:40Z</time>
+    <name>IMG_20260417_125937</name>
+    <desc>IMG_20260417_125937</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.547604" lon="114.42136">
+    <ele>11.89</ele>
+    <time>2026-04-17T05:04:46Z</time>
+    <name>IMG_20260417_130442</name>
+    <desc>IMG_20260417_130442</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.551364" lon="114.424089">
+    <ele>17.6</ele>
+    <time>2026-04-17T05:09:28Z</time>
+    <name>IMG_20260417_130925</name>
+    <desc>IMG_20260417_130925</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.551336" lon="114.424249">
+    <ele>28.79</ele>
+    <time>2026-04-17T05:10:33Z</time>
+    <name>IMG_20260417_131026</name>
+    <desc>IMG_20260417_131026</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.551786" lon="114.425259">
+    <ele>10.39</ele>
+    <time>2026-04-17T05:11:40Z</time>
+    <name>IMG_20260417_131139</name>
+    <desc>IMG_20260417_131139</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.551901" lon="114.425439">
+    <ele>15.39</ele>
+    <time>2026-04-17T05:12:01Z</time>
+    <name>IMG_20260417_131159</name>
+    <desc>IMG_20260417_131159</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.55251" lon="114.427531">
+    <ele>16.0</ele>
+    <time>2026-04-17T05:16:06Z</time>
+    <name>IMG_20260417_131605</name>
+    <desc>IMG_20260417_131605</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.550442" lon="114.422063">
+    <ele>30.1</ele>
+    <time>2026-04-17T05:22:19Z</time>
+    <name>IMG_20260417_132215</name>
+    <desc>IMG_20260417_132215</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.551633" lon="114.424092">
+    <ele>30.6</ele>
+    <time>2026-04-17T05:27:46Z</time>
+    <name>IMG_20260417_132744</name>
+    <desc>IMG_20260417_132744</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.552276" lon="114.424119">
+    <ele>47.0</ele>
+    <time>2026-04-17T05:32:56Z</time>
+    <name>IMG_20260417_133251</name>
+    <desc>IMG_20260417_133251</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.552453" lon="114.424127">
+    <ele>54.0</ele>
+    <time>2026-04-17T05:33:49Z</time>
+    <name>IMG_20260417_133345</name>
+    <desc>IMG_20260417_133345</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.552618" lon="114.424155">
+    <ele>60.8</ele>
+    <time>2026-04-17T05:35:02Z</time>
+    <name>IMG_20260417_133458</name>
+    <desc>IMG_20260417_133458</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.552429" lon="114.423098">
+    <ele>40.6</ele>
+    <time>2026-04-17T05:42:02Z</time>
+    <name>IMG_20260417_134200</name>
+    <desc>IMG_20260417_134200</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.552273" lon="114.419576">
+    <ele>55.4</ele>
+    <time>2026-04-17T05:54:13Z</time>
+    <name>IMG_20260417_135411</name>
+    <desc>IMG_20260417_135411</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.553041" lon="114.418794">
+    <ele>51.99</ele>
+    <time>2026-04-17T05:56:00Z</time>
+    <name>IMG_20260417_135557</name>
+    <desc>IMG_20260417_135557</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.553283" lon="114.417804">
+    <ele>43.5</ele>
+    <time>2026-04-17T06:00:23Z</time>
+    <name>IMG_20260417_140021</name>
+    <desc>IMG_20260417_140021</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.553144" lon="114.415856">
+    <ele>38.69</ele>
+    <time>2026-04-17T06:03:49Z</time>
+    <name>IMG_20260417_140347</name>
+    <desc>IMG_20260417_140347</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.553947" lon="114.413152">
+    <ele>15.2</ele>
+    <time>2026-04-17T06:11:46Z</time>
+    <name>IMG_20260417_141143</name>
+    <desc>IMG_20260417_141143</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.553728" lon="114.412922">
+    <ele>18.69</ele>
+    <time>2026-04-17T06:12:31Z</time>
+    <name>IMG_20260417_141228</name>
+    <desc>IMG_20260417_141228</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.554378" lon="114.413371">
+    <ele>22.4</ele>
+    <time>2026-04-17T06:14:36Z</time>
+    <name>IMG_20260417_141435</name>
+    <desc>IMG_20260417_141435</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.554513" lon="114.413356">
+    <ele>22.1</ele>
+    <time>2026-04-17T06:15:03Z</time>
+    <name>IMG_20260417_141500</name>
+    <desc>IMG_20260417_141500</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.55495" lon="114.413466">
+    <ele>14.4</ele>
+    <time>2026-04-17T06:15:55Z</time>
+    <name>IMG_20260417_141554</name>
+    <desc>IMG_20260417_141554</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.554922" lon="114.413591">
+    <ele>11.5</ele>
+    <time>2026-04-17T06:16:13Z</time>
+    <name>IMG_20260417_141613</name>
+    <desc>IMG_20260417_141613</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.555009" lon="114.414326">
+    <ele>10.4</ele>
+    <time>2026-04-17T06:17:25Z</time>
+    <name>IMG_20260417_141724</name>
+    <desc>IMG_20260417_141724</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.555047" lon="114.414394">
+    <ele>7.4</ele>
+    <time>2026-04-17T06:17:38Z</time>
+    <name>IMG_20260417_141737</name>
+    <desc>IMG_20260417_141737</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.554425" lon="114.414541">
+    <ele>14.7</ele>
+    <time>2026-04-17T06:21:02Z</time>
+    <name>IMG_20260417_142059</name>
+    <desc>IMG_20260417_142059</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.555362" lon="114.413254">
+    <ele>11.1</ele>
+    <time>2026-04-17T06:24:04Z</time>
+    <name>IMG_20260417_142403</name>
+    <desc>IMG_20260417_142403</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.555317" lon="114.413309">
+    <ele>12.9</ele>
+    <time>2026-04-17T06:25:32Z</time>
+    <name>IMG_20260417_142527</name>
+    <desc>IMG_20260417_142527</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.555899" lon="114.411295">
+    <ele>9.9</ele>
+    <time>2026-04-17T06:32:37Z</time>
+    <name>IMG_20260417_143233</name>
+    <desc>IMG_20260417_143233</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.55663" lon="114.407114">
+    <ele>14.3</ele>
+    <time>2026-04-17T06:35:02Z</time>
+    <name>IMG_20260417_143459</name>
+    <desc>IMG_20260417_143459</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.556536" lon="114.405872">
+    <ele>10.1</ele>
+    <time>2026-04-17T06:37:14Z</time>
+    <name>IMG_20260417_143707</name>
+    <desc>IMG_20260417_143707</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.556536" lon="114.405872">
+    <ele>10.1</ele>
+    <time>2026-04-17T06:37:32Z</time>
+    <name>IMG_20260417_143726</name>
+    <desc>IMG_20260417_143726</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.562132" lon="114.402039">
+    <ele>16.7</ele>
+    <time>2026-04-17T06:47:34Z</time>
+    <name>IMG_20260417_144728</name>
+    <desc>IMG_20260417_144728</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.562132" lon="114.402039">
+    <ele>16.7</ele>
+    <time>2026-04-17T06:47:43Z</time>
+    <name>IMG_20260417_144740</name>
+    <desc>IMG_20260417_144740</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.565527" lon="114.358814">
+    <ele>17.6</ele>
+    <time>2026-04-17T07:48:28Z</time>
+    <name>IMG_20260417_154826</name>
+    <desc>IMG_20260417_154826</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.565563" lon="114.358908">
+    <ele>19.6</ele>
+    <time>2026-04-17T07:49:50Z</time>
+    <name>IMG_20260417_154945</name>
+    <desc>IMG_20260417_154945</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:16:30Z</time>
+    <name>IMG_20260417_161628</name>
+    <desc>IMG_20260417_161628</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:43:33Z</time>
+    <name>IMG_20260417_164333</name>
+    <desc>IMG_20260417_164333</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:46:34Z</time>
+    <name>IMG_20260417_164633</name>
+    <desc>IMG_20260417_164633</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:46:57Z</time>
+    <name>IMG_20260417_164657</name>
+    <desc>IMG_20260417_164657</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:47:11Z</time>
+    <name>IMG_20260417_164708</name>
+    <desc>IMG_20260417_164708</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:50:34Z</time>
+    <name>IMG_20260417_165033</name>
+    <desc>IMG_20260417_165033</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:50:45Z</time>
+    <name>IMG_20260417_165042</name>
+    <desc>IMG_20260417_165042</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:52:43Z</time>
+    <name>IMG_20260417_165243</name>
+    <desc>IMG_20260417_165243</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:52:53Z</time>
+    <name>IMG_20260417_165250</name>
+    <desc>IMG_20260417_165250</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T08:54:46Z</time>
+    <name>IMG_20260417_165446</name>
+    <desc>IMG_20260417_165446</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T09:54:54Z</time>
+    <name>IMG_20260417_175454</name>
+    <desc>IMG_20260417_175454</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T09:58:52Z</time>
+    <name>IMG_20260417_175850</name>
+    <desc>IMG_20260417_175850</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:01:34Z</time>
+    <name>IMG_20260417_180133</name>
+    <desc>IMG_20260417_180133</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:12:29Z</time>
+    <name>IMG_20260417_181226</name>
+    <desc>IMG_20260417_181226</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:15:37Z</time>
+    <name>IMG_20260417_181536</name>
+    <desc>IMG_20260417_181536</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:20:46Z</time>
+    <name>IMG_20260417_182045</name>
+    <desc>IMG_20260417_182045</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:22:40Z</time>
+    <name>IMG_20260417_182237</name>
+    <desc>IMG_20260417_182237</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:22:48Z</time>
+    <name>IMG_20260417_182247</name>
+    <desc>IMG_20260417_182247</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:26:07Z</time>
+    <name>IMG_20260417_182607</name>
+    <desc>IMG_20260417_182607</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:27:47Z</time>
+    <name>IMG_20260417_182747</name>
+    <desc>IMG_20260417_182747</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:35:08Z</time>
+    <name>IMG_20260417_183507</name>
+    <desc>IMG_20260417_183507</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:35:17Z</time>
+    <name>IMG_20260417_183515</name>
+    <desc>IMG_20260417_183515</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:39:25Z</time>
+    <name>IMG_20260417_183924</name>
+    <desc>IMG_20260417_183924</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:41:37Z</time>
+    <name>IMG_20260417_184137</name>
+    <desc>IMG_20260417_184137</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:43:51Z</time>
+    <name>IMG_20260417_184350</name>
+    <desc>IMG_20260417_184350</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:43:53Z</time>
+    <name>IMG_20260417_184352</name>
+    <desc>IMG_20260417_184352</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:47:50Z</time>
+    <name>IMG_20260417_184749</name>
+    <desc>IMG_20260417_184749</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:48:27Z</time>
+    <name>IMG_20260417_184826</name>
+    <desc>IMG_20260417_184826</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:48:55Z</time>
+    <name>IMG_20260417_184853</name>
+    <desc>IMG_20260417_184853</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:49:00Z</time>
+    <name>IMG_20260417_184859</name>
+    <desc>IMG_20260417_184859</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:55:15Z</time>
+    <name>IMG_20260417_185514</name>
+    <desc>IMG_20260417_185514</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T10:56:02Z</time>
+    <name>IMG_20260417_185601</name>
+    <desc>IMG_20260417_185601</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T11:09:34Z</time>
+    <name>IMG_20260417_190933</name>
+    <desc>IMG_20260417_190933</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T11:15:21Z</time>
+    <name>IMG_20260417_191520</name>
+    <desc>IMG_20260417_191520</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T11:27:33Z</time>
+    <name>IMG_20260417_192732</name>
+    <desc>IMG_20260417_192732</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T11:45:45Z</time>
+    <name>IMG_20260417_194544</name>
+    <desc>IMG_20260417_194544</desc>
+    <type>文字脚印</type>
+  </wpt>
+  <wpt lat="30.568705" lon="114.361338">
+    <ele>14.8</ele>
+    <time>2026-04-17T11:46:08Z</time>
+    <name>IMG_20260417_194607</name>
+    <desc>IMG_20260417_194607</desc>
+    <type>文字脚印</type>
+  </wpt>
+</gpx>

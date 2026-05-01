@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="foooooot.com">
+<metadata>
+         <copyright author="foooooot.com"> <license>foooooot.com</license></copyright>
+         <time>1489173334.0</time>
+         <name>昙华林</name>
+</metadata>
+<wpt lat="30.5543083333333" lon="114.30482"><ele>0.0</ele><time>2017-03-11T03:17:58.000Z</time><name>历史文化记录馆</name></wpt>
+<wpt lat="30.554555" lon="114.304221666667"><ele>0.0</ele><time>2017-03-11T03:21:15.000Z</time><name>仁济医院</name></wpt>
+<wpt lat="30.5546283333333" lon="114.303438333333"><ele>0.0</ele><time>2017-03-11T03:26:26.000Z</time><name>牧师公寓</name></wpt>
+<wpt lat="30.5553783333333" lon="114.301193333333"><ele>0.0</ele><time>2017-03-11T04:27:44.000Z</time><name>未命名</name></wpt>
+<wpt lat="30.5554716666667" lon="114.300848333333"><ele>0.0</ele><time>2017-03-11T04:29:24.000Z</time><name>未命名</name></wpt>
+<wpt lat="30.556395" lon="114.300715"><ele>0.0</ele><time>2017-03-11T04:46:45.000Z</time><name>未命名</name></wpt>
+<wpt lat="30.5563133333333" lon="114.300761666667"><ele>0.0</ele><time>2017-03-11T04:47:06.000Z</time><name>石瑛旧居</name></wpt>
+<wpt lat="30.5542366666667" lon="114.30329"><ele>0.0</ele><time>2017-03-11T05:22:49.000Z</time><name>修女堂</name></wpt>
+<wpt lat="30.55425" lon="114.303183333333"><ele>0.0</ele><time>2017-03-11T05:24:10.000Z</time><name>未命名</name></wpt>
+<trk>
+    <name>昙华林</name>
+    <type>trip#track</type>
+    <src>手机客户端软件/六只脚iPhone版</src>
+    <trkseg> 
+<trkpt lat="30.5540320" lon="114.3064430" /><trkpt lat="30.5544756" lon="114.3043222" /><trkpt lat="30.5548122" lon="114.3031966" /><trkpt lat="30.5547920" lon="114.3025690" /><trkpt lat="30.5546104" lon="114.3024288" /><trkpt lat="30.5547374" lon="114.3023500" /><trkpt lat="30.5546198" lon="114.3024226" /><trkpt lat="30.5546828" lon="114.3025720" /><trkpt lat="30.5549606" lon="114.3027332" /><trkpt lat="30.5549880" lon="114.3029316" /><trkpt lat="30.5554666" lon="114.3007570" /><trkpt lat="30.5555262" lon="114.3005922" /><trkpt lat="30.5558478" lon="114.3003804" /><trkpt lat="30.5557284" lon="114.3005160" /><trkpt lat="30.5558190" lon="114.3007414" /><trkpt lat="30.5563428" lon="114.3007422" /><trkpt lat="30.5559140" lon="114.3007884" /><trkpt lat="30.5555682" lon="114.3010304" /><trkpt lat="30.5553088" lon="114.3016020" /><trkpt lat="30.5551072" lon="114.3027818" /><trkpt lat="30.5546040" lon="114.3032920" /><trkpt lat="30.5542172" lon="114.3032210" /><trkpt lat="30.5540418" lon="114.3035182" /><trkpt lat="30.5542256" lon="114.3040484" /><trkpt lat="30.5545494" lon="114.3043632" /><trkpt lat="30.5546066" lon="114.3043266" /><trkpt lat="30.5544805" lon="114.3052073" /><trkpt lat="30.5543800" lon="114.3052200" /></trkseg>
+</trk>
+</gpx>

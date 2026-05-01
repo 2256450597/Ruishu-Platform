@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="AI">
+  <trk>
+    <name>昭君村-景区北线循环路线</name>
+    <trkseg>
+      <trkpt lon="110.746448" lat="31.23405"></trkpt>
+      <trkpt lon="110.746841" lat="31.233621"></trkpt>
+      <trkpt lon="110.747015" lat="31.23336"></trkpt>
+      <trkpt lon="110.747384" lat="31.232503"></trkpt>
+      <trkpt lon="110.747751" lat="31.231833"></trkpt>
+      <trkpt lon="110.748035" lat="31.231329"></trkpt>
+      <trkpt lon="110.74834" lat="31.230862"></trkpt>
+      <trkpt lon="110.749157" lat="31.230211"></trkpt>
+      <trkpt lon="110.74955" lat="31.2298"></trkpt>
+      <trkpt lon="110.750227" lat="31.229352"></trkpt>
+      <trkpt lon="110.750642" lat="31.229165"></trkpt>
+      <trkpt lon="110.751034" lat="31.228941"></trkpt>
+      <trkpt lon="110.751733" lat="31.22868"></trkpt>
+      <trkpt lon="110.752213" lat="31.228437"></trkpt>
+      <trkpt lon="110.752737" lat="31.228195"></trkpt>
+      <trkpt lon="110.753196" lat="31.228083"></trkpt>
+      <trkpt lon="110.753654" lat="31.227933"></trkpt>
+      <trkpt lon="110.753938" lat="31.227765"></trkpt>
+      <trkpt lon="110.754589" lat="31.227485"></trkpt>
+      <trkpt lon="110.754982" lat="31.227355"></trkpt>
+      <trkpt lon="110.755135" lat="31.227224"></trkpt>
+      <trkpt lon="110.755681" lat="31.226925"></trkpt>
+      <trkpt lon="110.755833" lat="31.226552"></trkpt>
+      <trkpt lon="110.756052" lat="31.225737"></trkpt>
+      <trkpt lon="110.756161" lat="31.225606"></trkpt>
+      <trkpt lon="110.756641" lat="31.225475"></trkpt>
+      <trkpt lon="110.757209" lat="31.225475"></trkpt>
+      <trkpt lon="110.757558" lat="31.225643"></trkpt>
+      <trkpt lon="110.758082" lat="31.225643"></trkpt>
+      <trkpt lon="110.758911" lat="31.225867"></trkpt>
+      <trkpt lon="110.759151" lat="31.225942"></trkpt>
+      <trkpt lon="110.759042" lat="31.226315"></trkpt>
+      <trkpt lon="110.758737" lat="31.226801"></trkpt>
+      <trkpt lon="110.758703" lat="31.227669"></trkpt>
+      <trkpt lon="110.758388" lat="31.228169"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

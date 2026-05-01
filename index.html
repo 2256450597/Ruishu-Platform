@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>睿数标识｜湖北低空景区经营决策平台｜热力图版</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo">⛰️</div>
+      <div>
+        <h1>睿数标识</h1>
+        <p>湖北低空景区经营决策平台</p>
+      </div>
+    </div>
+
+    <div class="scenic-select">
+      <label>湖北省内示范景区</label>
+      <select id="scenicSelect" class="w-full bg-transparent border-none focus:ring-0 text-sm font-bold text-gray-700 cursor-pointer">
+        <option value="zhaojun">昭君故里｜宜昌·兴山 </option>
+        <option value="tanhualin">昙华林历史街区｜武汉·武昌 </option>
+        <option value="donghu">武汉东湖风景区｜武汉·洪山 </option>
+      </select>
+    </div>
+
+    <nav class="nav">
+      <button class="active" data-page="fusion">🛸 低空融合感知</button>
+      <button data-page="dashboard">📊 运营驾驶舱</button>
+      <button data-page="route">🧭 轨迹动线分析</button>
+      <button data-page="conversion">💳 消费转化归因</button>
+      <button data-page="merchant">🏪 商家布局优化</button>
+      <button data-page="guide">📍 个性化导览推荐</button>
+      <button data-page="risk">⚠️ 安全开发保障</button>
+      <button data-page="report">📄 规划诊断报告</button>
+    </nav>
+
+    <div class="side-note">
+      当前版本已将景区游客聚集区域改为<strong>热力图</strong>：颜色越偏红，表示人流越密集；黄色表示中等密度；浅蓝表示较低密度。保留风险点、消费点、低空巡航线等关键图层，整体更清晰、美观。
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <div class="crumb">湖北省内自然山岳景区 / <span id="pageCrumb">低空融合感知</span></div>
+        <h2 id="pageTitle">低空融合感知</h2>
+      </div>
+      <div class="top-actions">
+        <button class="btn" onclick="alert('已生成调度建议：南线分流、观景平台增设移动售卖点、北坡加强巡检。')">发布调度</button>
+        <button class="btn primary" onclick="window.print()">导出当前页</button>
+      </div>
+    </header>
+
+    <section id="dashboard" class="page">
+      <div class="grid grid-4">
+        <div class="card kpi"><div><div class="label">当前在园游客</div><div class="value" id="visitors">18,426</div><div class="desc">较昨日同期 +12.4%</div></div><div class="icon">👥</div></div>
+        <div class="card kpi"><div><div class="label">低空设备在线</div><div class="value">7 / 8</div><div class="desc">无人机巡航正常</div></div><div class="icon">🛸</div></div>
+        <div class="card kpi"><div><div class="label">消费转化率</div><div class="value">31.8%</div><div class="desc">较上周 +4.6%</div></div><div class="icon">🛍️</div></div>
+        <div class="card kpi"><div><div class="label">风险预警事件</div><div class="value">3</div><div class="desc">2个待处理，1个关注</div></div><div class="icon">⚠️</div></div>
+      </div>
+
+      <div class="grid grid-3" style="margin-top:18px">
+        <div class="card span-2">
+          <div class="section-title">
+            <div>
+              <h3><span class="scenicName">武当山景区</span>实时运营态势地图</h3>
+              <p>游客聚集区域已用热力图表现，颜色越红表示人流越密集。</p>
+            </div>
+            <span class="tag dark">热力图版</span>
+          </div>
+          <div class="legend">
+            <span><i style="background:linear-gradient(90deg,#7dd3fc,#fde047,#ef4444)"></i>游客热力</span>
+            <span><i style="background:#16a34a"></i>消费点</span>
+            <span><i style="background:#dc2626"></i>山体风险点</span>
+            <span><i style="background:#2563eb"></i>低空巡航线</span>
+          </div>
+          <div id="mapDashboard" class="real-map"></div>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <div class="section-title"><div><h3>重点区域排行</h3><p>识别人多但消费不足、转化潜力高的区域。</p></div></div>
+            <div class="list">
+              <div class="item"><div class="item-head"><b>主观景平台</b><span class="tag warn">高客流</span></div><p>客流 92%，消费转化 68%。</p><div class="bar"><span style="width:92%"></span></div></div>
+              <div class="item"><div class="item-head"><b>南线栈道</b><span class="tag danger">风险叠加</span></div><p>客流 84%，消费转化 41%，存在边坡风险。</p><div class="bar"><span style="width:84%"></span></div></div>
+              <div class="item"><div class="item-head"><b>游客服务区</b><span class="tag ok">高转化</span></div><p>客流 73%，消费转化 87%。</p><div class="bar"><span style="width:73%"></span></div></div>
+            </div>
+          </div>
+          <div class="notice">
+            <div><b>今日运营建议</b><p>红色热区主要集中在主观景平台与南线步道，建议及时分流，并将餐饮、文创补给点向黄色过渡区布置。</p></div>
+            <div style="font-size:28px">🔥</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fusion" class="page active">
+      <div class="grid grid-3">
+        <div class="card span-2">
+          <div class="section-title"><div><h3>低空—地面融合感知地图</h3><p>保留低空巡航线、消费点与风险点，并叠加游客热力分布。</p></div><span class="tag dark">空地融合</span></div>
+          <div id="mapFusion" class="real-map"></div>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="item-head"><b>1号无人机｜核心景观线</b><span class="tag ok">在线</span></div><div class="item" style="height:118px">视频预览窗口 / 热区叠加 / 巡航回放</div></div>
+          <div class="card"><div class="item-head"><b>2号无人机｜南线风险巡检</b><span class="tag ok">在线</span></div><div class="item" style="height:118px">边坡巡检 / 落石识别 / 步道状态</div></div>
+          <div class="card"><div class="item-head"><b>固定摄像头｜主入口</b><span class="tag ok">在线</span></div><div class="item" style="height:118px">入园客流 / 排队长度 / 异常聚集</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="route" class="page">
+      <div class="grid grid-3">
+        <div class="card span-2">
+          <div class="section-title"><div><h3>游客轨迹与主动线分析</h3><p>游客主游线与热力图结合，能更直观看出拥堵与停留热点。</p></div></div>
+          <div id="mapRoute" class="real-map"></div>
+        </div>
+        <div class="card">
+          <div class="section-title"><div><h3>主动线识别</h3><p>判断游客真实游览路径。</p></div></div>
+          <div class="list">
+            <div class="item"><div class="item-head"><b>入口—核心景点—观景台</b><span class="tag">主游线</span></div><div class="bar"><span style="width:88%"></span></div></div>
+            <div class="item"><div class="item-head"><b>入口—服务区—文创街</b><span class="tag">消费线</span></div><div class="bar"><span style="width:64%"></span></div></div>
+            <div class="item"><div class="item-head"><b>北门—古道—观景台</b><span class="tag">深度线</span></div><div class="bar"><span style="width:51%"></span></div></div>
+            <div class="item"><div class="item-head"><b>南门—栈道—索道</b><span class="tag danger">拥堵线</span></div><div class="bar"><span style="width:76%"></span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="conversion" class="page">
+      <div class="funnel">
+        <div class="step"><div class="label">经过游客</div><div class="num">18,426</div><div class="bar"><span style="width:100%"></span></div></div>
+        <div class="step"><div class="label">停留游客</div><div class="num">11,280</div><div class="bar"><span style="width:61%"></span></div></div>
+        <div class="step"><div class="label">进店游客</div><div class="num">4,932</div><div class="bar"><span style="width:27%"></span></div></div>
+        <div class="step"><div class="label">完成消费</div><div class="num">1,568</div><div class="bar"><span style="width:9%"></span></div></div>
+      </div>
+      <div class="grid grid-3" style="margin-top:18px">
+        <div class="card span-2">
+          <div class="section-title"><div><h3>消费热力与转化归因</h3><p>人流热力与消费点叠加，更容易看出“高客流低转化”的区域。</p></div></div>
+          <div id="mapConversion" class="real-map"></div>
+        </div>
+        <div class="card">
+          <div class="section-title"><div><h3>归因结果</h3></div></div>
+          <div class="list">
+            <div class="item"><b>南线补给点转化低</b><p>客流经过率高，但停留空间不足，建议增加休息设施与套餐推送。</p></div>
+            <div class="item"><b>服务区文创转化高</b><p>与亲子路线、拍照点高度重合，建议提高曝光等级。</p></div>
+            <div class="item"><b>观景台咖啡排队过长</b><p>高峰体验下降，建议增设移动售卖点分流。</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="merchant" class="page">
+      <div class="grid grid-3">
+        <div class="card span-2">
+          <div class="section-title"><div><h3>商家布局与曝光优化</h3><p>在热力图上观察客流分布，可更直观地做点位优化与招商布局。</p></div></div>
+          <div id="mapMerchant" class="real-map"></div>
+        </div>
+        <div class="card">
+          <div class="section-title"><div><h3>点位调整建议</h3><p>服务景区商业规划与招商运营。</p></div></div>
+          <div class="list">
+            <div class="item"><b>A级曝光位</b><p>适合文创、饮品、轻食、打卡纪念类商家。</p></div>
+            <div class="item"><b>B级转化位</b><p>适合补给、休息、亲子消费和体验类商家。</p></div>
+            <div class="item"><b>C级培育位</b><p>建议通过导览推荐、优惠券和活动引流提升曝光。</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="guide" class="page">
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="section-title"><div><h3>游客偏好配置</h3><p>游客可选择兴趣，系统结合实时人流热度和风险状态生成路线。</p></div></div>
+          <div>
+            <span class="tag">自然风光</span>
+            <span class="tag">拍照打卡</span>
+            <span class="tag">亲子友好</span>
+            <span class="tag">文创消费</span>
+            <span class="tag">避开拥堵</span>
+            <span class="tag">轻徒步</span>
+          </div>
+          <button class="btn primary" style="width:100%;margin-top:20px" onclick="alert('已生成推荐路线，并自动绕开红色高密度区与风险点。')">生成推荐路线</button>
+        </div>
+        <div class="card span-2">
+          <div class="section-title"><div><h3>推荐路线地图</h3><p>紫色线为推荐游线；系统会尽量避开高密度红色区域和风险点。</p></div></div>
+          <div id="mapGuide" class="real-map"></div>
+        </div>
+      </div>
+      <div class="grid grid-3" style="margin-top:18px">
+        <div class="route-card"><div><h4>年轻打卡路线</h4><p>入口 → 核心景观 → 主观景台 → 拍照点 → 文创街</p></div><div class="match"><b>96%</b><div class="muted">匹配度</div></div></div>
+        <div class="route-card"><div><h4>亲子轻松路线</h4><p>主入口 → 游客服务区 → 短线观景平台 → 亲子休息区</p></div><div class="match"><b>89%</b><div class="muted">匹配度</div></div></div>
+        <div class="route-card"><div><h4>避堵深度路线</h4><p>北门古道 → 林间步道 → 西侧观景点 → 特色补给点</p></div><div class="match"><b>82%</b><div class="muted">匹配度</div></div></div>
+      </div>
+    </section>
+
+    <section id="risk" class="page">
+      <div class="grid grid-3">
+        <div class="card span-2">
+          <div class="section-title"><div><h3>安全开发保障中心</h3><p>结合风险点与预警信息，为安全开放管理提供支撑。</p></div><span class="tag danger">山体风险</span></div>
+          <div id="mapRisk" class="real-map"></div>
+        </div>
+        <div class="card">
+          <div class="section-title"><div><h3>风险事件</h3><p>把灾害预警转化为开放管理和游客分流决策。</p></div></div>
+          <div class="list">
+            <div class="item"><div class="item-head"><b>南线临崖步道 K2+300</b><span class="tag danger">Ⅲ级管控</span></div><p>24小时累计降雨偏高，坡面冲刷痕迹明显。建议临时关闭并启用替代路线。</p></div>
+            <div class="item"><div class="item-head"><b>北坡落石观察点</b><span class="tag warn">Ⅱ级预警</span></div><p>低空巡检识别到新落石堆积。建议加强无人机复巡和人员巡查。</p></div>
+            <div class="item"><div class="item-head"><b>主观景台转角</b><span class="tag">Ⅰ级关注</span></div><p>游客密度接近阈值，建议增派引导员。</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="page">
+      <div class="grid grid-4">
+        <div class="card"><div class="icon">📄</div><h3>景区动线诊断报告</h3><p class="muted">分析游客主动线、拥堵点、冷点区域和折返位置。</p><button class="btn primary" style="width:100%;margin-top:18px" onclick="window.print()">导出报告</button></div>
+        <div class="card"><div class="icon">💳</div><h3>消费转化归因报告</h3><p class="muted">分析客流、停留、进店、消费之间的转化关系。</p><button class="btn primary" style="width:100%;margin-top:18px" onclick="window.print()">导出报告</button></div>
+        <div class="card"><div class="icon">🏪</div><h3>商家布局优化报告</h3><p class="muted">给出商铺曝光、业态适配和商业点位调整建议。</p><button class="btn primary" style="width:100%;margin-top:18px" onclick="window.print()">导出报告</button></div>
+        <div class="card"><div class="icon">⚠️</div><h3>安全开放评估报告</h3><p class="muted">评估山体风险、路线封闭影响和游客分流方案。</p><button class="btn primary" style="width:100%;margin-top:18px" onclick="window.print()">导出报告</button></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+  <script src="./assets/js/data.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+</body>
+</html>
